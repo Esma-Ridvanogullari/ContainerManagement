@@ -21,7 +21,6 @@ namespace ContainerManagement
             Depth=depth;
             CargoWeight = 0;
         }
-
         public void LoadCargo(double weight)
         {
             if (CargoWeight + weight > MaxPayload)

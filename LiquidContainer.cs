@@ -6,7 +6,7 @@ namespace ContainerManagement
     {
         public bool IsHazardous{get;}
 
-        public LiquidContainer(double maxPayload, double tareWeight, double height, double depth, bool isHazardous)
+        public LiquidContainer(double maxPayload,double tareWeight,double height, double depth, bool isHazardous)
             : base("L", maxPayload, tareWeight, height, depth)
         {
             IsHazardous=isHazardous;

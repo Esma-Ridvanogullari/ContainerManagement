@@ -6,8 +6,8 @@ namespace ContainerManagement
     {
         public double Pressure{get; }
 
-        public GasContainer(double maxPayload, double tareWeight, double height, double depth, double pressure)
-            : base("G",maxPayload,tareWeight, height, depth)
+        public GasContainer(double maxPayload,double tareWeight,double height, double depth, double pressure)
+            : base("G",maxPayload,tareWeight, height,depth)
         {
             Pressure=pressure;
         }
